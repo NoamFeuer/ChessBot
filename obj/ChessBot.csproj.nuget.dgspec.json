@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/Desktop/Code/ChessBot/ChessBot.csproj": {}
+    "/home/noam/Desktop/Code/ChessBot/ChessBot.csproj": {}
   },
   "projects": {
-    "/home/user/Desktop/Code/ChessBot/ChessBot.csproj": {
+    "/home/noam/Desktop/Code/ChessBot/ChessBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/Desktop/Code/ChessBot/ChessBot.csproj",
+        "projectUniqueName": "/home/noam/Desktop/Code/ChessBot/ChessBot.csproj",
         "projectName": "ChessBot",
-        "projectPath": "/home/user/Desktop/Code/ChessBot/ChessBot.csproj",
-        "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/Desktop/Code/ChessBot/obj/",
+        "projectPath": "/home/noam/Desktop/Code/ChessBot/ChessBot.csproj",
+        "packagesPath": "/home/noam/.nuget/packages/",
+        "outputPath": "/home/noam/Desktop/Code/ChessBot/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/user/.nuget/NuGet/NuGet.Config"
+          "/home/noam/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/noam/.dotnet/sdk/8.0.409/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

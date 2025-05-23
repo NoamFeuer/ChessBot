@@ -21,12 +21,12 @@ namespace Game
 				board.Update();
 
 				if (!board.IsWhiteTurn() &&
-					!board.chessGame.IsCheckmated(ChessDotNet.Player.Black) &&
-					!board.chessGame.IsCheckmated(ChessDotNet.Player.White) &&
+					!board.chessGame.IsCheckmated(Player.Black) &&
+					!board.chessGame.IsCheckmated(Player.White) &&
 					!board.chessGame.IsDraw() &&
 					!board.isPromoting)
 				{
-					Move bestMove = bot.Minimax(board.chessGame, 5, int.MinValue, int.MaxValue, false);
+					Move bestMove = bot.Minimax(board.chessGame, 4, int.MinValue, int.MaxValue, false);
 
 					if (bestMove != null)
 						board.chessGame.MakeMove(bestMove, true);
